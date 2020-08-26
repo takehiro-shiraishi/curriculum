@@ -1,4 +1,11 @@
 <?php
+$en_words = 'Hello World';
+var_dump($en_words);
+echo '<br>';
+$ja_words = 'こんにちは';
+var_dump($ja_words);
+echo '<br>';
+
  echo "＜API＞"."<br>";
  echo "APIとはアプリケーション・プログラミング・インターフェイスで大雑把にいうとアプリケーションをプログラミングするためのインターフェイスという意味です。"."<br>";
  echo "インターフェイスとはコンピュータ用語で言うと、何かと何かを繋ぐものと言う意味を持ちます。"."<br>";
