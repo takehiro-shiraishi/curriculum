@@ -1,6 +1,6 @@
 <?php
 
-for ($y = 0; $y < 100; $y++) {
+for ($y = 0; $y <= 100; $y++) {
     if($y % 3 === 0 && $y % 5 === 0) {
         echo "Fizz!Bizz!"."<br>";
     } elseif ($y % 5 === 0) {
